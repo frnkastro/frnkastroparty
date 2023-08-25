@@ -10,5 +10,12 @@ main {
 }
 
 .profile-pic {
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+ .profile-pic {
   width: 100vw;
+  height: auto;
+ } 
 }
