@@ -1,25 +1,33 @@
+/* Reset default margins and padding */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-html {
+/* Set global background */
+html, body {
   height: 100vh;
   width: 100vw;
-  background-color: black;
-  overflow: hidden;
+  background-image: url('./images/nebula.jpg'); /* Absolute path */
+  background-size: cover;
+  position: relative;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Dark Overlay for Readability */
+html::before {
+  content: "";
+  position: fixed; /* Ensures it stays fixed and covers everything */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Adjust this value */
+  pointer-events: none; /* Prevents interference with clicks */
+  z-index: 1; /* Ensures it's above everything */
 }
 
+/* Keep code elements in monospace */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
