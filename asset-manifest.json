@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5adc7eae.css",
-    "main.js": "/static/js/main.1e563dca.js",
+    "main.css": "/static/css/main.26da648e.css",
+    "main.js": "/static/js/main.db33bfde.js",
     "static/media/nebula.jpg": "/static/media/nebula.b9270194ee8c6da37b12.jpg",
     "index.html": "/index.html",
-    "main.5adc7eae.css.map": "/static/css/main.5adc7eae.css.map",
-    "main.1e563dca.js.map": "/static/js/main.1e563dca.js.map"
+    "main.26da648e.css.map": "/static/css/main.26da648e.css.map",
+    "main.db33bfde.js.map": "/static/js/main.db33bfde.js.map"
   },
   "entrypoints": [
-    "static/css/main.5adc7eae.css",
-    "static/js/main.1e563dca.js"
+    "static/css/main.26da648e.css",
+    "static/js/main.db33bfde.js"
   ]
 }
