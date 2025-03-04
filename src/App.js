@@ -2,34 +2,18 @@ import './App.css';
 
 const App = () => {
   return (
-    <main style={{ 
-      backgroundImage: "url('./images/nebula.jpg')", 
-      backgroundSize: 'cover', 
-      backgroundPosition: 'center', 
-      height: '100vh', 
-      width: '100vw' 
-    }}>
+    <main>
       <div className="content">
         <h1 className="band-name">frnk astro</h1>
         <p className="album-announcement">Full-length album coming summer 2025</p>
-        <a href="https://soundcloud.com/frnkastro" className="bandcamp-link">
-          Listen on SoundCloud
-        </a>
+        <div className="button-container">
+          <a href="https://frnkastro.bandcamp.com" target="_blank" className="link-btn">Bandcamp</a>
+          <a href="https://soundcloud.com/frnkastro" target="_blank" className="link-btn">SoundCloud</a>
+          {/* <a href="https://open.spotify.com/artist/YOUR-ARTIST-ID" target="_blank" className="link-btn">Spotify</a> */}
+          <a href="https://instagram.com/frnkastro" target="_blank" className="link-btn">Instagram</a>
+          <a href="https://facebook.com/frnkastro" target="_blank" className="link-btn">Facebook</a>
+        </div>
       </div>
-
-      {/* Fireflies remain as background elements */}
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
     </main>
   );
 }
