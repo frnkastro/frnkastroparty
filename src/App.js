@@ -5,7 +5,7 @@ const App = () => {
     <main>
       <div className="content">
         <h1 className="band-name">frnk astro</h1>
-        <p className="album-announcement">ep available this winter</p>
+        <p className="album-announcement">ep coming this winter</p>
         <div className="button-container">
           <a href="https://frnkastro.bandcamp.com" target="_blank" className="link-btn" aria-label="Listen to frnk astro on Bandcamp">Bandcamp</a>
           <a href="https://soundcloud.com/frnkastro" target="_blank" className="link-btn" aria-label="Listen to frnk astro on SoundCloud">SoundCloud</a>
