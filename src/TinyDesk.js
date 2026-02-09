@@ -27,24 +27,6 @@ const TinyDesk = () => {
           Live from a basement in Denver, Colorado — frnk astro performs{" "}
           <strong>“Jesus In a Prius”</strong> for the 2026 NPR Tiny Desk Contest.
         </p>
-
-        <div className="tiny-actions">
-          <a
-            href="https://frnkastro.bandcamp.com"
-            target="_blank"
-            rel="noreferrer"
-            className="link-btn primary"
-          >
-            Listen on Bandcamp
-          </a>
-
-          <a
-            href="mailto:frnkastroparty@gmail.com"
-            className="link-btn secondary"
-          >
-            Book a Show
-          </a>
-        </div>
       </div>
     </main>
   );

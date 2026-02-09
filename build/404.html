@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>frnk astro</title>
+    <script>
+      // SPA redirect for GitHub Pages (works with custom domains)
+      // Redirects /tiny-desk -> /?p=/tiny-desk then index.html restores it
+      var l = window.location;
+      var newUrl =
+        l.protocol +
+        "//" +
+        l.host +
+        "/?p=" +
+        encodeURIComponent(l.pathname + l.search + l.hash);
+
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>

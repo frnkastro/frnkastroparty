@@ -8,9 +8,11 @@
 }
 
 .tiny-content {
-  width: 100%;
-  max-width: 820px;
+  position: relative;
+  z-index: 10;
+  opacity: 1;
 }
+
 
 .tiny-top {
   display: flex;
@@ -19,16 +21,22 @@
 }
 
 .tiny-back {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
   color: white;
   opacity: 0.75;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   padding-bottom: 2px;
 }
 
 .tiny-back:hover {
   opacity: 1;
+  border-color: white;
+  transform: translateX(-2px);
 }
+
 
 .tiny-title {
   font-size: 2.2rem;
