@@ -6,7 +6,7 @@ const Home = () => {
     <main>
       <div className="content">
         <h1 className="band-name">frnk astro</h1>
-        <p className="sub-headline">4-piece basement rock from Denver, CO</p>
+        <p className="sub-headline">Denver, CO Basement Rock</p>
 
         <div className="button-container">
           <div className="primary-buttons">

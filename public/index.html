@@ -1,71 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Primary SEO -->
+    <title>frnk astro – Denver Basement Rock | 4-Piece Band</title>
+    <meta
+      name="description"
+      content="frnk astro is a 4-piece basement rock band from Denver, CO. Watch our NPR Tiny Desk Contest 2026 submission, listen on Bandcamp, and book a show."
+    />
+    <!-- (Optional / light touch) Keywords -->
+    <meta
+      name="keywords"
+      content="frnk astro, Denver band, Denver basement rock, 4-piece band, indie rock Denver, basement rock Denver, NPR Tiny Desk Contest 2026"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="frnk astro" />
+    <meta
+      property="og:title"
+      content="frnk astro – Denver Basement Rock | 4-Piece Band"
+    />
+    <meta
+      property="og:description"
+      content="A 4-piece basement rock band from Denver, CO. Watch frnk astro’s NPR Tiny Desk Contest 2026 submission."
+    />
+    <meta property="og:image" content="/frnkastro-share.jpg" />
+    <meta property="og:url" content="https://frnkastro.party" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="frnk astro – Denver Basement Rock | 4-Piece Band"
+    />
+    <meta
+      name="twitter:description"
+      content="frnk astro is a 4-piece basement rock band from Denver, CO."
+    />
+    <meta name="twitter:image" content="/frnkastro-share.jpg" />
+
+    <!-- Icons / Manifest -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SPA route restore (GH Pages) -->
     <script>
-  (function () {
-    var params = new URLSearchParams(window.location.search);
-    var p = params.get("p");
-    if (p) {
-      window.history.replaceState(null, "", decodeURIComponent(p));
-    }
-  })();
-</script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var p = params.get("p");
+        if (p) {
+          window.history.replaceState(null, "", decodeURIComponent(p));
+        }
+      })();
+    </script>
 
     <!-- Google tag (gtag.js) -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-77JYNHG6DS"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
-      rel="stylesheet"
-    />
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-77JYNHG6DS");
     </script>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="frnk astro is a Denver-based indie rock astro party blending rock, indie, and electronic sounds with tremolo guitars, synths, and dynamic rhythms. ep coming this winter."
-    />
-    <!-- Open Graph for Facebook, Instagram -->
-    <meta
-      property="og:title"
-      content="frnk astro – Indie Rock Duo from Denver"
-    />
-    <meta
-      property="og:description"
-      content="frnk astro is a Denver-based indie rock astro party blending rock, indie, and electronic sounds with tremolo guitars, synths, and dynamic rhythms. ep coming this winter."
-    />
-    <meta property="og:image" content="/frnkastro-share.jpg" />
-    <meta property="og:url" content="https://yourwebsite.com" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card for Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="frnk astro – Indie Rock Duo from Denver"
-    />
-    <meta
-      name="twitter:description"
-      content="frnk astro is a Denver-based indie rock astro party blending rock, indie, and electronic sounds with tremolo guitars, synths, and dynamic rhythms. ep coming this winter."
-    />
-    <meta name="twitter:image" content="/frnkastro-share.jpg" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>frnk astro – astro rock | ep coming this winter</title>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      frnk astro is a 4-piece basement rock band from Denver, CO. Please enable
+      JavaScript to view the site.
+    </noscript>
     <div id="root"></div>
   </body>
 </html>
