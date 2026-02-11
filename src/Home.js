@@ -19,13 +19,13 @@ const Home = () => {
               Watch Tiny Desk
             </Link>
 
-            <a
+            {/* <a
               href="mailto:frnkastroparty@gmail.com"
               className="link-btn primary"
               aria-label="Book a show with frnk astro"
             >
               Book a Show
-            </a>
+            </a> */}
           </div>
 
           <div className="secondary-buttons">
@@ -46,6 +46,15 @@ const Home = () => {
               aria-label="Listen to frnk astro on SoundCloud"
             >
               Listen on SoundCloud
+            </a>
+                        <a
+              href="https://instagram.com/frnkastro"
+              target="_blank"
+              rel="noreferrer"
+              className="link-btn secondary"
+              aria-label="Listen to frnk astro on SoundCloud"
+            >
+              Become Our First Instagram Follower
             </a>
           </div>
         </div>
