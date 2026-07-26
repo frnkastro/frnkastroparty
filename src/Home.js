@@ -10,7 +10,6 @@ const Home = () => {
 
         <div className="button-container">
           <div className="primary-buttons">
-            {/* internal route now */}
             <Link
               to="/tiny-desk"
               className="link-btn primary"
@@ -18,14 +17,20 @@ const Home = () => {
             >
               Watch Tiny Desk
             </Link>
-
-            {/* <a
+            <Link
+              to="/shows"
+              className="link-btn primary"
+              aria-label="View upcoming frnk astro shows"
+            >
+              Shows
+            </Link>
+                        <a
               href="mailto:frnkastroparty@gmail.com"
               className="link-btn primary"
               aria-label="Book a show with frnk astro"
             >
               Book a Show
-            </a> */}
+            </a>
           </div>
 
           <div className="secondary-buttons">
@@ -47,7 +52,7 @@ const Home = () => {
             >
               Listen on SoundCloud
             </a>
-                        <a
+            <a
               href="https://instagram.com/frnkastro"
               target="_blank"
               rel="noreferrer"

@@ -121,3 +121,30 @@ main {
     gap: 18px;
   }
 }
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.75;
+  padding-bottom: 2px;
+}
+
+.back-link:hover {
+  opacity: 1;
+  transform: translateX(-2px);
+}
+
+.shows-container {
+  margin-top: 30px;
+  width: min(100%, 760px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shows-container .bit-widget-initializer {
+  display: block;
+}
