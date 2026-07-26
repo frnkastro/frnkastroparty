@@ -52,7 +52,7 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
               className="link-btn secondary"
-              aria-label="Listen to frnk astro on SoundCloud"
+              aria-label="Please help us be cool"
             >
               Become Our First Instagram Follower
             </a>
