@@ -24,13 +24,13 @@ const Home = () => {
             >
               Shows
             </Link>
-                        <a
+            {/* <a
               href="mailto:frnkastroparty@gmail.com"
               className="link-btn primary"
               aria-label="Book a show with frnk astro"
             >
               Book a Show
-            </a>
+            </a> */}
           </div>
 
           <div className="secondary-buttons">
