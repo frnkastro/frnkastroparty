@@ -11,29 +11,22 @@ const Home = () => {
         <div className="button-container">
           <div className="primary-buttons">
             <Link
-              to="/tiny-desk"
-              className="link-btn primary"
-              aria-label="View NPR 2026 Tiny Desk Contest page"
-            >
-              Watch Tiny Desk
-            </Link>
-            <Link
               to="/shows"
               className="link-btn primary"
               aria-label="View upcoming frnk astro shows"
             >
               Shows
             </Link>
-            {/* <a
-              href="mailto:frnkastroparty@gmail.com"
-              className="link-btn primary"
-              aria-label="Book a show with frnk astro"
-            >
-              Book a Show
-            </a> */}
           </div>
 
           <div className="secondary-buttons">
+            <Link
+              to="/tiny-desk"
+              className="link-btn secondary"
+              aria-label="View NPR 2026 Tiny Desk Contest page"
+            >
+              Watch Tiny Desk
+            </Link>
             <a
               href="https://frnkastro.bandcamp.com"
               target="_blank"
@@ -60,6 +53,13 @@ const Home = () => {
               aria-label="Please help us be cool"
             >
               Become Our First Instagram Follower
+            </a>
+            <a
+              href="mailto:frnkastroparty@gmail.com"
+              className="link-btn secondary"
+              aria-label="Get in touch with frnk astro"
+            >
+              Get in Touch
             </a>
           </div>
         </div>
