@@ -6,7 +6,7 @@ const Home = () => {
     <main>
       <div className="content">
         <h1 className="band-name">frnk astro</h1>
-        <p className="sub-headline">Denver, CO Basement Rock</p>
+        <p className="sub-headline">Denver, CO Basement Indie Rock</p>
 
         <div className="button-container">
           <div className="primary-buttons">
@@ -21,11 +21,11 @@ const Home = () => {
 
           <div className="secondary-buttons">
             <Link
-              to="/tiny-desk"
+              to="/videos"
               className="link-btn secondary"
-              aria-label="View NPR 2026 Tiny Desk Contest page"
+              aria-label="View frnk astro videos"
             >
-              Watch Tiny Desk
+              Videos
             </Link>
             <a
               href="https://frnkastro.bandcamp.com"
@@ -52,7 +52,7 @@ const Home = () => {
               className="link-btn secondary"
               aria-label="Please help us be cool"
             >
-              Become Our First Instagram Follower
+              Become our First Instagram Follower
             </a>
             <a
               href="mailto:frnkastroparty@gmail.com"

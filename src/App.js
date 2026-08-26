@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import TinyDesk from "./TinyDesk";
+import Videos from "./Videos";
 import Shows from "./Shows";
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/tiny-desk" element={<TinyDesk />} />
+      <Route path="/videos" element={<Videos />} />
       <Route path="/shows" element={<Shows />} />
     </Routes>
   );
